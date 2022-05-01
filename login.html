@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Авторизация</title>
+    <link rel="stylesheet" href="css/c13.css" />
+    <link rel="shortcut icon" href="images/qwer.png" />
+  </head>
+  <body>
+    <div class="container login">
+      <form id="login" action="/login/" method="post">
+        <div class="one-third column">
+          <img src="images/qwer.png" alt="логотип" id="logo" />
+        </div>
+        <div class="two-thirds column" id="main">
+          <fieldset>
+            <legend>Авторизация</legend>
+            <label for="username">Логин</label>
+            <input type="text" placeholder="Введите логин" id="username" name="username"required/>
+            <label for="pwd">Пароль</label>
+            <input type="password" placeholder="Введите пароль" id="pwd" name="pwd" required/></br>
+            <input type="checkbox" id="showPwd">
+            <label for="showPwd">Отобразить пароль</label>
+            <input type="submit" value="Войти" />
+          </fieldset>
+        </div>
+      </form>
+    </div>
+    <footer class="footer"> 
+      <p class="container_12">© 2020 Атабеков Темирбек, по всем вопросам писать некуда</p>
+    </footer>
+    <script src="js/utilities.js"></script>
+    <script src="js/validation-signup.js"></script>
+    <script src="js/input-type.js"></script>
+    <!--<script src="js/log.js"></script>-->
+    <script src="js/submit-event.js"></script>
+    <!--<script src="js/validation1.js"></script>-->
+  </body>
+</html>
